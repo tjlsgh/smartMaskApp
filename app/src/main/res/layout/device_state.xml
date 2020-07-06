@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Temperature"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#8ABABABB"
+                android:gravity="center"
+                android:text="@string/Temperature"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/AQI"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#8ABABABB"
+                android:gravity="center"
+                android:text="@string/AQI"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/Airpressure"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#8ABABABB"
+                android:gravity="center"
+                android:text="@string/Airpressure"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/Alcohol"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#8ABABABB"
+                android:gravity="center"
+                android:text="@string/Alcohol"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/UsingTime"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#8ABABABB"
+                android:gravity="center"
+                android:text="@string/UsingTime"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/Motor"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#8ABABABB"
+                android:gravity="center"
+                android:text="@string/Motor"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/Fan"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#8ABABABB"
+                android:gravity="center"
+                android:text="@string/Fan"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/temperature_tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/aqi_tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/airpressure_tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/alcohol_tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/usingTime_tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/motor_tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/fan_tv"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="刷新"/>
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="返回"/>
+
+    <TextView
+        android:id="@+id/messageArrivedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

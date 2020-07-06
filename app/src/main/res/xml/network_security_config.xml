@@ -1,0 +1,16 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true"/>
+    <!--    <domain-config cleartextTrafficPermitted="true">-->
+<!--        <domain includeSubdomains="true">127.0.0.1</domain>-->
+<!--        <domain includeSubdomains="true">localhost</domain>-->
+<!--        <domain includeSubdomains="true">aliyun.com</domain>-->
+
+<!--    </domain-config>-->
+<!--    <domain-config cleartextTrafficPermitted="false">-->
+<!--        &lt;!&ndash;不允许以下网址使用非安全连接&ndash;&gt;-->
+<!--        <domain includeSubdomains="true">example.com</domain>-->
+<!--        <domain includeSubdomains="true">cdn.example2.com</domain>-->
+<!--    </domain-config>-->
+
+</network-security-config>
